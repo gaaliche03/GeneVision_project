@@ -1,0 +1,42 @@
+# This output was generated with AUGUSTUS (version 3.5.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth, Katharina Hoff, Henry Mehlan and Daniel Honsel.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /mnt/c/Users/MSI/Documents/PFE/DNA_project/data/input_sequences.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 2344, name = input_sequence) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+input_sequence	AUGUSTUS	gene	445	1848	1	+	.	g1
+input_sequence	AUGUSTUS	transcript	445	1848	.	+	.	g1.t1
+input_sequence	AUGUSTUS	start_codon	445	447	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	445	582	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	812	894	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	1053	1123	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	1208	1315	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	1587	1688	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	1772	1848	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	stop_codon	1846	1848	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLPPGTATLLTLLLAAGSLGQKPQRPRRPASPISTIQPKANFDAQQEQGHRAEATTLHVAPQGTAMAVSTFRKLDGIC
+# WQVRQLYGDTGVLGRFLLQARGARGAVHVVVAETDYQSFAVLYLERAGQLSVKLYARSLPVSDSVLSGFEQRVQEAHLTEDQIFYFPKYGFCEAADQF
+# HVLDGECTAGASMAAW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# augustus --species=human /mnt/c/Users/MSI/Documents/PFE/DNA_project/data/input_sequences.fasta --outfile=/mnt/c/Users/MSI/Documents/PFE/DNA_project/data/augustus_output.gff
