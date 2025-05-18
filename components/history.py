@@ -138,8 +138,9 @@ def display_usage_summary(user_id):
     st.markdown("---")
 
 
+#afficher les sequences de user avec option de filtrage
 def display_sequences_section(user_id):
-    """Display the user's sequences with filtering options"""
+    
     
     st.subheader("My Analyzed Sequences")
     
@@ -248,8 +249,8 @@ def display_sequences_section(user_id):
             display_sequence_card(seq, i, user_id)
 
 
+#card de chaque sequence qui contient les options et les détails
 def display_sequence_card(seq, index, user_id):
-    """Display a card for a sequence with details and options"""
     
     # Basic information
     seq_id = seq.get("_id")
@@ -347,8 +348,8 @@ def display_sequence_card(seq, index, user_id):
                 else:
                     st.error("Failed to delete sequence.")
 
+#genérer rapport pdf du sequence
 def generate_sequence_report_for_download(seq_id, user_id):
-    """Generate a new report for a sequence and return the PDF data for download"""
     
     # Get sequence data
     sequence = get_sequence(seq_id)

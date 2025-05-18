@@ -250,7 +250,7 @@ def display_results():
                         st.markdown("---")  # Séparateur
                         
                         threshold = st.slider("Confidence score threshold", 
-                                            min_value=0.0, max_value=1.0, value=0.2, step=0.1)
+                                            min_value=0.0, max_value=1.0, value=0.2, step=0.05)
 
                         # Récupérer et parser la colonne "All GO Terms"
                         gene_row = gene_rows.iloc[0]

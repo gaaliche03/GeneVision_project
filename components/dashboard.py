@@ -153,7 +153,7 @@ def dashboard():
             """, unsafe_allow_html=True)
             
             # Create columns for photo and user info
-            col1, col2, col3 = st.columns([1,1, 4])
+            col1, col2, col3 = st.columns([1,2,4])
             
             with col2:
                 # Display profile photo in circular shape
@@ -192,8 +192,10 @@ def dashboard():
             
             st.markdown("</div>", unsafe_allow_html=True)
 
+
+#Affiche l'interface d'entrée de séquence et gère l'analyse étape par étape
 def display_sequence_entry(user_id, username):
-    """Affiche l'interface d'entrée de séquence et gère l'analyse étape par étape"""
+    
     
     # Use relative path for image file
     image_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'assets', 'genevision.png')

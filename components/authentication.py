@@ -59,7 +59,8 @@ def authentication():
     st.markdown("#### <i>Please authenticate to continue</i>", unsafe_allow_html=True)
 
     if not st.session_state.get('logged_in', False):
-        tab1, tab2, tab3 = st.tabs(["**_Login_**", "**_Register_**", "**_Reset Password_**"])
+        """tab1, tab2, tab3 = st.tabs(["**_Login_**", "**_Register_**", "**_Reset Password_**"])"""
+        tab1, tab2 = st.tabs(["**_Login_**", "**_Register_**"])
         st.markdown("""
             <style>
                 div.stButton { display: flex; justify-content: flex-end; }
@@ -119,7 +120,7 @@ def authentication():
                         else:
                             st.error(message)
                             
-        with tab3: 
+        """with tab3: 
         # partie de mdp oublié
             with st.form("'show_reset_form'"):
                 reset_email = st.text_input("Email Used During Registration", placeholder="Enter your email")
@@ -143,7 +144,7 @@ def authentication():
                         if reset_user_password(reset_email, new_pass):
                             st.success("Password reset successful. You can now log in.")
                         else:
-                            st.error("Email not found or password reset failed.")
+                            st.error("Email not found or password reset failed.")"""
 
     else:
         st.success(f"Logged in as: {st.session_state['current_user']}")

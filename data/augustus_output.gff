@@ -11,27 +11,35 @@
 # Looks like /mnt/c/Users/MSI/Documents/PFE/DNA_project/data/input_sequences.fasta is in fasta format.
 # We have hints for 0 sequences and for 0 of the sequences in the input set.
 #
-# ----- prediction on sequence number 1 (length = 2344, name = input_sequence) -----
+# ----- prediction on sequence number 1 (length = 9453, name = input_sequence) -----
 #
 # Predicted genes for sequence number 1 on both strands
 # start gene g1
-input_sequence	AUGUSTUS	gene	445	1848	1	+	.	g1
-input_sequence	AUGUSTUS	transcript	445	1848	.	+	.	g1.t1
-input_sequence	AUGUSTUS	start_codon	445	447	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	445	582	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	812	894	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	1053	1123	.	+	1	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	1208	1315	.	+	2	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	1587	1688	.	+	2	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	CDS	1772	1848	.	+	2	transcript_id "g1.t1"; gene_id "g1";
-input_sequence	AUGUSTUS	stop_codon	1846	1848	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-# protein sequence = [MLPPGTATLLTLLLAAGSLGQKPQRPRRPASPISTIQPKANFDAQQEQGHRAEATTLHVAPQGTAMAVSTFRKLDGIC
-# WQVRQLYGDTGVLGRFLLQARGARGAVHVVVAETDYQSFAVLYLERAGQLSVKLYARSLPVSDSVLSGFEQRVQEAHLTEDQIFYFPKYGFCEAADQF
-# HVLDGECTAGASMAAW]
+input_sequence	AUGUSTUS	gene	966	6903	1	+	.	g1
+input_sequence	AUGUSTUS	transcript	966	6903	.	+	.	g1.t1
+input_sequence	AUGUSTUS	start_codon	966	968	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	966	1017	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	1818	1934	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	2055	2198	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	2852	2995	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	3426	3607	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	4340	4423	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	4543	4789	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	5072	5358	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	5860	6007	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	CDS	6494	6903	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+input_sequence	AUGUSTUS	stop_codon	6901	6903	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLARALLLCAVLALSHTANPCCSHPCQNRGVCMSVGFDQYKCDCTRTGFYGENCSTPEFLTRIKLFLKPTPNTVHYIL
+# THFKGFWNVVNNIPFLRNAIMSYVLTSRSHLIDSPPTYNADYGYKSWEAFSNLSYYTRALPPVPDDCPTPLGVKGKKQLPDSNEIVEKLLLRRKFIPD
+# PQGSNMMFAFFAQHFTHQFFKTDHKRGPAFTNGLGHGVDLNHIYGETLARQRKLRLFKDGKMKYQIIDGEMYPPTVKDTQAEMIYPPQVPEHLRFAVG
+# QEVFGLVPGLMMYATIWLREHNRVCDVLKQEHPEWGDEQLFQTSRLILIGETIKIVIEDYVQHLSGYHFKLKFDPELLFNKQFQYQNRIAAEFNTLYH
+# WHPLLPDTFQIHDQKYNYQQFIYNNSILLEHGITQFVESFTRQIAGRVAGGRNVPPAVQKVSQASIDQSRQMKYQSFNEYRKRFMLKPYESFEELTGE
+# KEMSAELEALYGDIDAVELYPALLVEKPRPDAIFGETMVEVGAPFSLKGLMGNVICSPAYWKPSTFGGEVGFQIINTASIQSLICNNVKGCPFTSFSV
+# PDPELIKTVTINASSSRSGLDDINPTVLLKERSTEL]
 # Evidence for and against this transcript:
 # % of transcript supported by hints (any source): 0
-# CDS exons: 0/6
-# CDS introns: 0/5
+# CDS exons: 0/10
+# CDS introns: 0/9
 # 5'UTR exons and introns: 0/0
 # 3'UTR exons and introns: 0/0
 # hint groups fully obeyed: 0
