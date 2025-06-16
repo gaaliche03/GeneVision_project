@@ -15,7 +15,7 @@ logger = logging.getLogger('genevision_db')
 
 # Connexion à MongoDB avec gestion d'erreur
 def get_db():
-    uri = os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/')
+    uri = os.environ.get('MONGODB_URI', 'mongodb+srv://genevision_db:<db_password>@cluster0.f8uj7qd.mongodb.net/')
     try:
         client = MongoClient(uri)
         db = client['genevision_db']
