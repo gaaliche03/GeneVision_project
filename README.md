@@ -86,7 +86,3 @@ With the rapid growth of genomic data, extracting meaningful biological insights
 6. Description simplification (LLM)  
 7. Structural prediction (ESM Atlas)  
 8. Visualization & report generation  
-
-
-
-<img width="998" height="176" alt="genevision" src="https://github.com/user-attachments/assets/74e66d5b-507e-4178-8ce6-11adcb6caf72" />
