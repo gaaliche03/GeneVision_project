@@ -5,6 +5,9 @@ This project is a **bioinformatics web application** designed to automatically *
 
 With the rapid growth of genomic data, extracting meaningful biological insights has become a major challenge. This platform simplifies the process by integrating **data preprocessing, gene prediction, functional annotation, and 3D protein structure modeling** into a single, user-friendly interface.
 
+
+<img width="998" height="176" alt="image" src="https://github.com/user-attachments/assets/d36405bd-d25d-4792-8ced-df5cccc25cab" />
+
 ---
 
 ## Key Features
